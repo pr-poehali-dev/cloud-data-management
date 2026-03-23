@@ -25,8 +25,13 @@ export default function Hero() {
         />
       </motion.div>
 
-      <div className="absolute inset-0 bg-black/50" />
-      <div className="relative z-10 text-center text-white px-6">
+      <div className="absolute inset-0 bg-black/60" />
+      <div className="relative z-10 text-center text-white px-6 flex flex-col items-center">
+        <img
+          src="https://cdn.poehali.dev/projects/99f566e7-af68-446d-aca0-5fb84574cd45/bucket/82e7a2b4-2685-49bd-b4f4-c0bbe5356e4f.png"
+          alt="SafeVault icon"
+          className="w-16 h-16 md:w-20 md:h-20 mb-4 rounded-2xl shadow-2xl"
+        />
         <p className="text-xs md:text-sm uppercase tracking-widest mb-4 opacity-70">Версия 1.0 · Windows 10/11 · Бесплатно</p>
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
           SAFEVAULT
@@ -35,7 +40,9 @@ export default function Hero() {
           Безопасное хранилище паролей. Храните всё в одном зашифрованном месте — локально, без передачи данных.
         </p>
         <a
-          href="#features"
+          href="https://disk.yandex.ru/d/sdQYJEtMWBDSPQ"
+          target="_blank"
+          rel="noopener noreferrer"
           className="inline-block bg-white text-black px-8 py-3 text-sm uppercase tracking-widest font-semibold hover:bg-neutral-200 transition-colors duration-300"
         >
           Скачать бесплатно
